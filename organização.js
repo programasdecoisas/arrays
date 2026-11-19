@@ -4,9 +4,9 @@ function organizar(lista) {
     let i = 0
     while(i<numeros.length){
     let numeros1 = []
-    let Min = Math.min(numeros)
-    numeros1.push(Min)
-    numeros.Splice(numbers.index(Min), 1)
+    let low = Math.min(numeros)
+    numeros1.push(low)
+    numeros.Splice(numeros.index(low), 1)
     i++
     }
     console.log(numeros1)
